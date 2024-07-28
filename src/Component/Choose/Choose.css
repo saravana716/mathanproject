@@ -1,0 +1,100 @@
+.choose{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 40px 0px;
+}
+.choose1{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.choose2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.choose2 h1{
+    font-size: 40px;
+    color: red;
+    margin: 10px 0px;
+}
+.choose2 img{
+    margin-bottom: 15px;
+}
+.choose2 p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+.choosegrid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+
+}
+.carticon{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+.grid1{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.7s;
+    color: white;
+    background-color: #db291b;
+}
+.grid1 h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.grid1 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.grid2{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.7s;
+    background-color: #002d57;
+    color: white;
+}
+.grid2 h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.grid2 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.grid1:hover{
+    transform: translateY(-30px);
+}
+.grid2:hover{
+    transform: translateY(-30px);
+}

@@ -1,0 +1,70 @@
+.special{
+    width: 100%;
+    height:auto;
+    background-image:  url("../../Assets/images/crackersbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.special1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.special1 h2{
+    font-size: 50px;
+    color: red;
+    margin: 10px 0px;
+}
+.special1 p{
+    font-size: 22px;
+    font-style: italic;
+    margin: 10px 0px;
+}
+.specialinner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.speLeft{
+    display: flex;
+    flex-direction: column;
+}
+.spetop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.spetop .speimg{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.speimg img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.spetop h1{
+    font-size: 40px;
+    color: red;
+    margin: 10px 0px;
+}
+.spetop p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}

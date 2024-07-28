@@ -1,0 +1,152 @@
+.mar{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #00ffff;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #b31f1f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav h3{
+    font-size:16px;
+}
+.nav1{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.nav1 .navinner{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1left{
+    background-color:#f4d316;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    border: 1px solid #b31f1f;
+}
+.navimg{
+    width: 20%;
+    height:140px;
+    display: flex;
+}
+.navimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navnumber{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 20px;
+    position: relative;
+    border:  1px solid black;
+}
+.Query {
+    width: 130px;
+    position: absolute;
+    left: -10px;
+    background-color: white;
+    padding: 10px 0px;
+
+}
+.Query h1{
+    color: #b31f1f;
+    font-size: 15px;
+}
+.phicon{
+    font-size: 30px;
+    margin-left: 30px;
+    color: #b31f1f;
+}
+.number{
+    margin-left: 20px;
+}
+.number p{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+.Mainnavber{
+    width: 100%;
+    height: 60px;
+    background-color: #002d57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mainnavber ul{
+    width:auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    background-color: yellow !important;
+}
+.Mainnavber ul li{
+    height: 100%;
+    list-style: none;
+    border-right: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    color: white;
+    transition: 0.5s;
+    
+}
+.Mainnavber ul a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Mainnavber ul li:hover{
+    background-color: yellow;
+    color: black;
+}
+.Mainnavber ul  button{
+    height: 70%;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    font-size: 18px;
+    animation: scroll 1s infinite ;
+}
+@keyframes scroll {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
